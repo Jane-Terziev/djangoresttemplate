@@ -7,7 +7,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='h)r&v_dw5z5y@sfvxl%)futhns96#
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
