@@ -1,9 +1,9 @@
-This is a django rest template project.
+<h3>This is a django rest template project.</h3>
 
 When changing the project name, you might need to do some changes:
 1. Change the settings file path in manage.py, wsgi.py and asgi.py files with the new project name.
 2. Change the database default settings to your db username and password.
-3. Install all the packages in requirements.txt with <b>pip install -r requirements.txt<br>
+3. Install all the packages in requirements.txt with <b>pip install -r requirements.txt</b>
 
 For develop/staging/production servers, you might need to pass some environment variables. The settings file that is 
 used on start depends on the ENVIRONMENT variable. This variable takes develop/staging/production values. If no value
